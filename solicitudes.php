@@ -148,7 +148,7 @@ if (!(isset($_SESSION['email']))) {
                         <td class="accion"><center><b>
                         <span  onclick="openModal(' . $row["id"] .','."'" . $row["nombre"] ."'".','."'" . $row["telefono"] ."'".','."'". $row["email"] ."'".','."'". $row["ocupacion"] ."'".')" 
                          class="pull-right btn btn-warning sub1" title="Editar Nota" style="margin:0px;color:white; margin-left: 6px;"><span class="glyphicon glyphicon-pencil" aria-hidden="true"></span></center>
-                         <span onclick="window.location=' . "'" . '/cotizadorweb/dashboard.php?q=2&title='. $row["nombre"] .'&id=' . $row["id"] .  "'" . '"   class="pull-right btn btn-primary sub1" style="margin:0px;color:white;margin-left: 6px;"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></center> 
+                         <span onclick="window.location=' . "'" . '/cotizador/dashboard.php?q=2&title='. $row["nombre"] .'&id=' . $row["id"] .  "'" . '"   class="pull-right btn btn-primary sub1" style="margin:0px;color:white;margin-left: 6px;"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></center> 
                          </td>
                        </tr>';
                     }
